@@ -1,0 +1,473 @@
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.16it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Device set to use cuda:0
+/home/abd/anaconda3/envs/forecasting/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:628: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/abd/anaconda3/envs/forecasting/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:633: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Q2
+ Thoughts: Based on the background information provided, predicting the winner of the 2024 USA Election is a challenging task. The election is still over a year away, and a lot can happen between now and then that could impact the outcome. However, I can try to identify some key factors that could influence the election and use those to generate search queries that may help uncover relevant articles.
+
+Search Queries:
+
+1. "2024 US presidential candidates" - This query should help me identify the major candidates running in the election and their platforms, which could give me an idea of who might have an advantage.
+2. "Economic indicators 2024 election" - A strong economy is often a key factor in determining the outcome of an election. By searching for economic indicators, I may be able to identify trends or patterns that could impact the election.
+3. "Political polling 2024 election" - Political polls can provide valuable insights into public opinion and how it might shift during the course of the election. By searching for political polling data, I may be able to identify trends or patterns that could help predict the winner.
+
+queries raw
+ Of course! Here are the search queries extracted from the given string:
+
+1. "2024 US presidential candidates"
+2. "Economic indicators 2024 election"
+3. "Political polling 2024 election"
+['2024 US presidential candidates', 'Economic indicators 2024 election']
+
+queries2_separated
+ ['2024 US presidential candidates', 'Economic indicators 2024 election']
+api_key NCdSYXe8K2wt7zODbAI74bqIq6tXdNWKT1oDWOD9
+
+
+API RESPONSE:
+
+ {
+    "meta": {
+        "found": 782,
+        "returned": 3,
+        "limit": 3,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "a7749a73-fdc9-421a-b026-20e17aa12178",
+            "title": "GOP to bar its candidates from presidential debates",
+            "description": "The Republican National Committee (RNC) has signaled plans to essentially boycott the group that runs US presidential debates, saying GOP voters no longer trust...",
+            "keywords": "",
+            "snippet": "Disgruntled over debate commission\u2019s refusal to enact reforms, Republican Party says its contenders won\u2019t participate unless its demands are met\n\nThe Republ...",
+            "url": "https://www.rt.com/news/545990-gop-boycotts-debate-commission/",
+            "image_url": "https://cdni.rt.com/files/2022.01/article/61e0ade285f54015326d0bc2.jpg",
+            "language": "en",
+            "published_at": "2022-01-13T23:02:21.000000Z",
+            "source": "rt.com",
+            "categories": [
+                "general",
+                "politics"
+            ],
+            "relevance_score": 41.841198
+        },
+        {
+            "uuid": "900c4917-06e7-4f95-a156-2d82e1ffcd9c",
+            "title": "Republicans threaten boycott of US presidential debates",
+            "description": "The time-honored tradition of US presidential debates could be at risk. The Republican National Committee (RNC) is threatening to boycott the debates unless the...",
+            "keywords": "",
+            "snippet": "In this file photo taken on 22 October, 2020 US President Donald Trump (L) and Democratic Presidential candidate and former US Vice President Joe Biden arrive o...",
+            "url": "https://www.thesouthafrican.com/news/us/republicans-threaten-boycott-of-us-presidential-debates/",
+            "image_url": "http://www.thesouthafrican.com/wp-content/uploads/2022/01/9W63KD-highres.jpg",
+            "language": "en",
+            "published_at": "2022-01-14T06:55:46.000000Z",
+            "source": "thesouthafrican.com",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": 39.513004
+        },
+        {
+            "uuid": "21680dad-d9fa-49e2-8fb2-346d9cbc5d5f",
+            "title": "Republicans threaten boycott of US presidential debates",
+            "description": "The Republican National Committee (RNC) is threatening to boycott the US presidential debates unless the body that organises them changes its rules.",
+            "keywords": "",
+            "snippet": "The Republican National Committee (RNC) is threatening to boycott the US presidential debates unless the body that organises them changes its rules.\n\nUS preside...",
+            "url": "https://www.rte.ie/news/world/2022/0113/1273589-us-president-debates/",
+            "image_url": "https://img.rasset.ie/00150dfc-1600.jpg",
+            "language": "en",
+            "published_at": "2022-01-13T22:09:23.000000Z",
+            "source": "rte.ie",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": 39.393448
+        }
+    ]
+}
+Article Text:
+ The Republican National Committee (RNC) has signaled plans to essentially boycott the group that runs US presidential debates, saying GOP voters no longer trust the organization to treat candidates fairly.
+
+“The RNC has a duty to ensure that its future presidential nominees have the opportunity to debate their opponents on a level playing field,” party chairwoman Rona McDaniel said on Thursday in a letter to the Commission on Presidential Debates (CPD). “So long as the CPD appears intent on stonewalling the meaningful reforms necessary to restore its credibility with the Republican Party as a fair and nonpartisan actor, the RNC will take every step to ensure that future Republican presidential nominees are given that opportunity elsewhere.”
+
+McDaniel said the RNC will enact rules changes at its winter meeting next month to ban the party’s candidates from taking part in CPD-run debates. The commission has shown bias against Republicans and has undermined its credibility through such actions as unilaterally changing previously agreed-upon debate formats and selecting a moderator who had worked for a Democrat candidate, she said.
+
+The commission also has balked at making RNC-proposed reforms, such as disqualifying prospective moderators who have apparent conflicts of interest and prohibiting CPD officers and employees from making public comments for or against any candidate, McDaniel said. “These proposals are common-sense solutions for an organization whose unique, nonpartisan role in American elections requires it to stand above the political fray. Indeed, we believe that most neutral observers would be shocked to learn that these overdue reforms are not already CPD policy.”
+
+The RNC didn’t specify an alternative forum for its candidates, in lieu of working with the traditional US debate organizer. The CPD was formed in 1987 under joint sponsorship by the Republican and Democratic parties. It has run all general election presidential and vice-presidential debates since 1988.
+
+The commission ruffled feathers in 2020 by moving the second presidential debate online because of the Covid-19 pandemic, prompting then-President Donald Trump to say he wouldn’t participate. Trump also accused moderators of bias against him and pointed out in 2016 that moderator Mike McCurry had worked as press secretary in the Clinton administration.
+
+The CPD responded to RNC complaints last month by saying it “does not negotiate the terms or conditions of operations with anyone.” On Thursday, the commission said its plans for the 2024 election will be based on “fairness, neutrality and a firm commitment to help the American public learn about the candidates and the issues.”
+
+
+
+failed to get from Republicans threaten boycott of US presidential debates
+url: https://www.thesouthafrican.com/news/us/republicans-threaten-boycott-of-us-presidential-debates/
+Article Text:
+ The Republican National Committee (RNC) is threatening to boycott the US presidential debates unless the body that organises them changes its rules.
+
+US presidential and vice-presidential debates have been sponsored for the past three decades by the nonpartisan Commission on Presidential Debates (CPD).
+
+In a letter to the CPD today, RNC chair Ronna McDaniel accused the commission of "stonewalling the meaningful reforms necessary to restore its credibility with the Republican Party as a fair and nonpartisan actor."
+
+Absent the reforms, "the RNC will take every step to ensure that future Republican presidential nominees are given that opportunity (to debate) elsewhere," Ms McDaniel said.
+
+"Accordingly, the RNC will initiate the process of amending the Rules of the Republican Party at our upcoming Winter Meeting to prohibit future Republican nominees from participating in CPD-sponsored debates," she said.
+
+Ms McDaniel complained in her letter that the first debate between Republican Donald Trump and Democrat Joe Biden in 2020 was held after early voting had already begun.
+
+She said the commission had made "unilateral changes to previously agreed-upon debate formats and conditions" and selected a moderator "who had once worked for the Democrat nominee."
+
+In addition, she said a majority of the CPD board members had been "publicly disparaging" of Mr Trump, the Republican nominee.
+
+In a statement to The New York Times, the CPD said it "deals directly with candidates for President and Vice President who qualify for participation."
+
+"The CPD's plans for 2024 will be based on fairness, neutrality and a firm commitment to help the American public learn about the candidates and the issues."
+
+White House Press Secretary Jen Psaki was asked about the RNC move at the daily press briefing.
+
+Ms Psaki said the president believes the debates "play a role in allowing the American people to hear from the candidates and where they stand."
+
+"So, I think it's a question best posed to the RNC and what they're so afraid of," she said.
+
+The commission has sponsored the US presidential debates since the 1988 election.
+
+
+
+api_key NCdSYXe8K2wt7zODbAI74bqIq6tXdNWKT1oDWOD9
+
+
+API RESPONSE:
+
+ {
+    "meta": {
+        "found": 169,
+        "returned": 3,
+        "limit": 3,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "2a0d5204-6b57-40b8-8391-7f6a5585544c",
+            "title": "The Pre-Election MYEFO Update: Labor\u2019s Scrutiny Fully Justified",
+            "description": "By Denis Bright\u00a0\u00a0 Without access to the vast resources of the federal LNP in Government, Labor has raised sobering realities to deflate the political excesses...",
+            "keywords": "",
+            "snippet": "By Denis Bright\n\nWithout access to the vast resources of the federal LNP in Government, Labor has raised sobering realities to deflate the political excesses of...",
+            "url": "https://theaimn.com/the-pre-election-myefo-update-labors-scrutiny-fully-justified/",
+            "image_url": "https://theaimn.com/wp-content/uploads/2021/12/Picture1-1-e1639715042986.jpg",
+            "language": "en",
+            "published_at": "2021-12-17T21:02:03.000000Z",
+            "source": "theaimn.com",
+            "categories": [
+                "general",
+                "politics"
+            ],
+            "relevance_score": 25.847145
+        },
+        {
+            "uuid": "22814568-2193-44e5-b049-56e51a4dc7d9",
+            "title": "What will decide UP polls outcome: Economic distress or communal rhetoric?",
+            "description": "While Samajwadi Party is trying to break out of the Mandal-Kamandal paradigm, it remains to be seen whether it can stay the course in the face of the highly cha...",
+            "keywords": "UP Assembly election 2022, UP election 2022, India news, Indian express, Indian express news, current affairs",
+            "snippet": "Mandate 2022 in Uttar Pradesh may well provide answers to a question that is assuming urgency as efforts to revive the economy continue to sputter, and the coun...",
+            "url": "https://indianexpress.com/article/entertainment/opinion-entertainment/what-will-decide-up-polls-outcome-economic-distress-or-communal-rhetoric-7774061/",
+            "image_url": "https://images.indianexpress.com/2022/02/oped-illustration-4.jpg",
+            "language": "en",
+            "published_at": "2022-02-14T22:30:20.000000Z",
+            "source": "indianexpress.com",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": 25.135355
+        },
+        {
+            "uuid": "0a8cb404-48cf-4a74-abcc-87f5d4c79d0a",
+            "title": "No cakewalk seen for Prayut in next election",
+            "description": "Politicians are gearing up for a possible general election next year, even though Prime Minister Prayut Chan-o-cha insists his military-backed coalition governm...",
+            "keywords": "",
+            "snippet": "No cakewalk seen for Prayut in next election\n\nFILE PHOTO: Prime Minister Prayut Chan-o-cha is seen during a meeting with Britain's Foreign Secretary Liz Truss i...",
+            "url": "https://www.bangkokpost.com/thailand/politics/2236639/no-cakewalk-seen-for-prayut-in-next-election",
+            "image_url": "https://static.bangkokpost.com/media/content/20211223/c1_2236639_700.jpg",
+            "language": "en",
+            "published_at": "2021-12-23T04:32:00.000000Z",
+            "source": "bangkokpost.com",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": 23.059341
+        }
+    ]
+}
+Article Text:
+ By Denis Bright
+
+Without access to the vast resources of the federal LNP in Government, Labor has raised sobering realities to deflate the political excesses of the last Mid-Year Economic and Financial Outlook (MYEFO) before the 2022 election.
+
+MYEFO still provides a window of political opportunities for the Morrison Government as economic indicators show a temporary rebound in the September Quarter in GDP growth, a temporary growth in capital expenditure in mining on real estate and property markets and improvements to business confidence as the holiday season approaches after a lengthy period of COVID-lockdown.
+
+A December Quarter rebound is likely to be a feature of a March election campaign. It is due for release on 2 March 2022.
+
+MYEFO has Machiavellian elements. The most obvious concern is the $16 billion set aside for unannounced election promises as released during the heat of the election campaign as in 2019 in electorates under siege from Labor.
+
+There is also the obvious repeated ruse of our official unemployment figure in the Treasurer’s media statements to talk up MYEFO. The 4.6 per cent unemployment rate needs more qualifiers. Australians from all age groups on training programmes or working on a trial basis for employers do not feature in the official jobless data. Adding the underemployed to the official jobless rate, translates to 13.1 per cent of the workforce. The situation is worse in the most disadvantaged federal electorates.
+
+Besides these obvious lapses are the wildly optimistic assumptions about the post-COVID recovery in the Australian and global economies despite the global shadow posed by the Omicron variant with its record level of cases in Britain.
+
+The Treasury is also over-optimistic about economic relations with China and Hong Kong despite months of sabre-rattling and patrols by Australia through the disputed waters of the South China Sea and the Taiwan Straits:
+
+In China, GDP is forecast to grow by 8 per cent in 2021 before moderating to 5 per cent in 2022, reflecting the strong recovery to date. Growth has eased recently owing to a slowdown in the property sector and the impact of multiple provincial virus outbreaks on consumption. Despite a high vaccination rate, China has continued to pursue an elimination strategy, imposing aggressive local containment measures and strict international border controls to suppress and limit outbreaks
+
+A third of Australian trade also plies these disputed maritime routes. MYEFO also notes that Australian deposits in the Asian Infrastructure Investment Bank (AIIB) which help to fund China’s Belt and Road Investment is currently running at $4 billion. Former Liberal Treasurer Peter Costello was a member of the International Advisory Council of the China Investment Corporation (CIC) between 2014 and 2018. The AFR announced on 26 August that Australia had just withdrawn substantial amounts of Australian Future Fund Investments in the CIC to support the sabre-rattling campaigns against our strongest trading partner.
+
+All this suggests that the federal LNP is playing domestic politics in its strategic disputes with China that cuts Australia off from profitable investment partnerships within Australia and in the global economy.
+
+Restrictions on overseas investment on security grounds have contributed to the downward trends in investment flows on the LNP’s long financial watch since 2013. Australian net capital inflows have never fully recovered from the GFC on the RBA’s latest chart series:
+
+Current capital flow data is worse than the RBA charts disclose because the resultant investment is highly concentrated in the mining, real estate and property sectors which make little contribution to the building of a more sustainable and diversified economy. Labor shares Peter Costello’s enthusiasm as Chair of the Future Fund in his 2020-21 Annual Report:
+
+As a result of the Board’s careful long-term positioning, the Future Fund has generated a 10-year return of 10.1% per annum against a target of 6.1% per annum. Since inception, investment returns have added $136.3 billion to the original contributions from the Government.
+
+At 30 June 2021 the Board of Guardians invested over $245 billion across the six public asset funds for which it is responsible for the Commonwealth Government. Each fund has exceeded its target return over every time-period.
+
+The Medical Research Future Fund (MRFF) generates earnings to provide grants to support medical research and medical innovation. The MRFF delivered a return of 10.9% in 2020–21 and was valued at $22.0 billion as at 30 June 2021.
+
+The Aboriginal and Torres Strait Islander Land and Sea Future Fund returned 13.9% for the year, taking its value to $2.2 billion. The Future Drought Fund and Emergency Response Fund have also performed well, delivering returns of 14.0% and 13.9% per annum respectively.
+
+The Disability Care Australia Fund also continued to perform in line with its Mandate, delivering a return of 0.4%.
+
+The opening up of new subsidiaries of the Future Fund and state-controlled investment funds to corporate hedge fund capital avoids fractious debates about additional taxation burdens. Labor’s National Policy mentions investment seventy times. Sceptical constituents might well ask for more details on the origin of this investment capital. More specific mention of investment options has come with the release of Labor’s affordable housing agenda:
+
+An Albanese Labor Government will create a $10 billion off-budget Housing Australia Future Fund to build social and affordable housing and create thousands of jobs now and in the long term. Each year investment returns from the Housing Australia Future Fund will be transferred to the National Housing Finance and Investment Corporation (NHFIC) to pay for social and affordable housing projects. Over the first 5 years the investment returns will build around:
+
+20,000 social housing properties.
+
+4,000 of the 20,000 social housing properties will be allocated for women and children fleeing domestic and family violence and older women on low incomes who are at risk of homelessness.
+
+10,000 affordable housing properties for frontline workers.
+
+A Social and Affordable Housing Fund (SAHF) is operated by the NSW Government. A proportion of the investment returns will fund annual service payments that will reward community housing providers over 25-years to bridge the gap between rental revenue and operating costs. These are far from being radical initiatives and stake out a broad support base that existed prior to the Labor Split of the 1950s.
+
+In The Boom-and-Bust Traditions of Conservative leaders, MYEFO conceals the likelihood of a near trillion-dollar public debt in 2024-25 as private sector investment falters while government spending programmes move southwards after the election to reduce the economic boost from deficit spending which has contributed to favourable short-term MYEFO indicators.
+
+I hear the confidence of Bill Hayden in the enthusiastic responses of Dr. Jim Chalmers to the current MYEFO. The adjacent seat of Oxley became a safe Labor seat for the first time after the defeat of the Liberal Health Minister in 1961. Being taken for granted, both then and now, raises Labor’s enthusiasm for the possibility of a change of government this time around despite all the media hype in MYEFO and in the future December Quarter economic indicators.
+
+This public relations advertisement warns everyone about life delivering curved balls during the cricket season. Take good advice from leaders who are on our side is already a strong feature of Labor’s media agendas. This style of narrative advertising could be broadened with inputs from other cross-sectional characters who are committed to level-headed critical policies that are appropriate for a middle-ranking Australian economy with a still underdeveloped financial sector.
+
+This would be a variation of the It’s Time Advertising from 1972. This campaign was challenged fiercely by the Federal LNP. Labor’s victories in twelve new seats were partially offset by losses to the LNP in Bendigo, Forrest, Stirling and Sturt. Out of this mix, Labor secured the seat of Cook which is Scott Morrison’s current seat.
+
+State of the art advertising can attract attention and fire the appetite for change over that conventional wisdom offered by the LNP to justify more market ideology and militarism to worsen the Australian social divide. Readers might take a few minutes to evaluate this style of the public announcement by checking the You Tube Channel.
+
+Narrative advertising should be endorsed by members of Labor’s Shadow Ministry, high profile candidates and popular Australians as in 1972.
+
+A call to electoral enrolments is the first step in getting sceptical potential constituents onside before the rolls close in early 2022 as the voting returns in many Labor heartland electorates were unbelievably soft at the last election.
+
+[textblock style=”6″]
+
+Denis Bright (pictured) is a financial member of the Media, Entertainment and Arts Alliance (MEAA). Denis is committed to consensus-building in these difficult times. Your feedback from readers advances the cause of citizens’ journalism. Full names are not required when making comments. However, a valid email must be submitted if you decide to hit the Replies Button.
+
+[/textblock]
+
+[textblock style=”7″]
+
+Like what we do at The AIMN?
+
+You’ll like it even more knowing that your donation will help us to keep up the good fight.
+
+Chuck in a few bucks and see just how far it goes!
+
+[/textblock]
+
+Post Views: 865
+
+
+
+Article Text:
+ Advertisement
+
+The BJP knew that UP was going to be tricky this time. There were too many signals of distress from the ground and Prime Minister Narendra Modi’s pre-election Santa Claus act did little to alleviate voter worries. The BJP’s response was to simply change the terms of electoral engagement and revert to the familiar tactics of polarisation. Its election machine is firing on all cylinders, and from all directions, to blitz any talk of disappearing jobs, rising prices and the devastation caused by the pandemic.
+
+For the first phase of polling, the BJP carpet-bombed western UP by sending all its heavyweights, including Union ministers, door-to-door. They resurrected yesterday’s emotive issues and ignored the disquiet on the ground. In Parliament, Prime Minister Narendra Modi did not even attempt to defend his government. He deflected all criticism by training his guns on the Congress and shrugged off responsibility for everything, including the migration havoc during the first Covid lockdown.
+
+And from faraway Karnataka, the BJP fired a potent salvo by raking up a blazing row over the hijab. As Hindu-Muslim tensions rise in the southern state, it is easy to join the dots from Karnataka to UP and guess that the hijab controversy has been pulled out like a rabbit from a magician’s hat to exacerbate communal tensions in UP’s minority-dominated pockets polling in the second phase.
+
+The extent of economic distress on the ground can be gauged from a survey published in The Indian Express recently. Conducted by Mumbai-based thinktank People’s Research on India’s Consumer Economy (PRICE), the report paints a heartbreaking picture of the blow to income levels of the bottom 40 per cent in the last five years — that is between the years 2016 and 2021. It’s an eyeopener on how the poor have fared through the double whammy of declining economic indicators post-demonetisation and a once-in-a-lifetime pandemic.
+
+Although it is a national survey, its findings can be extrapolated to understand ground realities in UP, which ranks as one of the country’s three poorest states, according to NITI Aayog. Here are some startling facts. The income level of the poorest 20 per cent dived 53 per cent in five years while that of the 20 per cent at the next level fell 32 per cent. The rich reaped a windfall in the same period. The income of the richest 20 per cent households grew 39 per cent.
+
+Now, contrast this with the decade before, from 2005 to 2016. The survey highlights that this decade saw the income of the poorest 20 per cent surge 183 per cent while that of the richest 20 per cent grew 34 per cent. For the poor, this meant an unprecedented annual growth rate of 9.9 per cent in household incomes.
+
+It is reasonable to assume that most of the poor hit by the five-year slump in incomes belong to Dalit, OBC and Muslim communities. After all, these groups are at the bottom of the pyramid everywhere. The question that presents itself as UP goes to polls is whether the steep fall in their economic status will influence their voting patterns in 2022.
+
+Five years ago, in 2017, before income levels started plunging, the BJP had swept to a stunning victory, riding a wave of popular support from a slew of Dalit and OBC groups. While the cutting edge of its campaign was Hindutva, the party worked on the ground to stitch up a rainbow coalition of upper-castes, non-Yadav backward castes and non-Jatav Dalits. It was a project in progress since 2014 and culminated in the 2017 sweep. BJP got a record 40 per cent vote share and 312 of the 403 assembly seats, something no party had achieved in UP for more than three decades. The social coalition held together in the 2019 parliamentary polls as well to give Modi a second term with a bigger majority.
+
+As the PRICE survey highlights, the ground has shifted considerably since 2017. The effects of demonetisation were already pinching when the pandemic exploded like a nuclear bomb. Covid was the proverbial straw that broke the camel’s back as economic activity ground to a halt for two quarters in 2020-21, causing the GDP to shrink by 7.3 per cent. The income of the poor contracted drastically as small and medium enterprises went bust and the service industry shut down. The urban poor were the worst hit.
+
+Elections in India have been fought traditionally on emotive appeals rather than economic issues. UP, in particular, has been trapped in the Mandal-Kamandal paradigm for more than three decades now, with identity and communal motifs dominating the narrative in every poll.
+
+While Akhilesh Yadav and his Samajwadi Party are trying to break out of this paradigm by bringing the economy centre-stage in the ongoing state polls, it remains to be seen whether they are able to stay the course in the face of the highly charged and polarising campaign of the BJP. There are already signs that Akhilesh is faltering, as the saffron narrative slowly gains traction while the focus on basic issues blurs.
+
+Akhilesh could learn a trick or two from his friend in neighbouring Bihar, RJD’s Tejashwi Yadav, who led a spirited attack against the BJP-JD(U) in the 2020 state polls, with a one-line slogan promising 10 lakh government jobs to the youth. The RJD lost but Tejashwi’s single-minded concentration on the big economic issue of the day gave his opponents several sleepless nights and nearly won him the election.
+
+
+
+failed to get from No cakewalk seen for Prayut in next election
+url: https://www.bangkokpost.com/thailand/politics/2236639/no-cakewalk-seen-for-prayut-in-next-election
+
+news
+ ['The Republican National Committee (RNC) has signaled plans to essentially boycott the group that runs US presidential debates, saying GOP voters no longer trust the organization to treat candidates fairly.\n\n“The RNC has a duty to ensure that its future presidential nominees have the opportunity to debate their opponents on a level playing field,” party chairwoman Rona McDaniel said on Thursday in a letter to the Commission on Presidential Debates (CPD). “So long as the CPD appears intent on stonewalling the meaningful reforms necessary to restore its credibility with the Republican Party as a fair and nonpartisan actor, the RNC will take every step to ensure that future Republican presidential nominees are given that opportunity elsewhere.”\n\nMcDaniel said the RNC will enact rules changes at its winter meeting next month to ban the party’s candidates from taking part in CPD-run debates. The commission has shown bias against Republicans and has undermined its credibility through such actions as unilaterally changing previously agreed-upon debate formats and selecting a moderator who had worked for a Democrat candidate, she said.\n\nThe commission also has balked at making RNC-proposed reforms, such as disqualifying prospective moderators who have apparent conflicts of interest and prohibiting CPD officers and employees from making public comments for or against any candidate, McDaniel said. “These proposals are common-sense solutions for an organization whose unique, nonpartisan role in American elections requires it to stand above the political fray. Indeed, we believe that most neutral observers would be shocked to learn that these overdue reforms are not already CPD policy.”\n\nThe RNC didn’t specify an alternative forum for its candidates, in lieu of working with the traditional US debate organizer. The CPD was formed in 1987 under joint sponsorship by the Republican and Democratic parties. It has run all general election presidential and vice-presidential debates since 1988.\n\nThe commission ruffled feathers in 2020 by moving the second presidential debate online because of the Covid-19 pandemic, prompting then-President Donald Trump to say he wouldn’t participate. Trump also accused moderators of bias against him and pointed out in 2016 that moderator Mike McCurry had worked as press secretary in the Clinton administration.\n\nThe CPD responded to RNC complaints last month by saying it “does not negotiate the terms or conditions of operations with anyone.” On Thursday, the commission said its plans for the 2024 election will be based on “fairness, neutrality and a firm commitment to help the American public learn about the candidates and the issues.”', 'The Republican National Committee (RNC) is threatening to boycott the US presidential debates unless the body that organises them changes its rules.\n\nUS presidential and vice-presidential debates have been sponsored for the past three decades by the nonpartisan Commission on Presidential Debates (CPD).\n\nIn a letter to the CPD today, RNC chair Ronna McDaniel accused the commission of "stonewalling the meaningful reforms necessary to restore its credibility with the Republican Party as a fair and nonpartisan actor."\n\nAbsent the reforms, "the RNC will take every step to ensure that future Republican presidential nominees are given that opportunity (to debate) elsewhere," Ms McDaniel said.\n\n"Accordingly, the RNC will initiate the process of amending the Rules of the Republican Party at our upcoming Winter Meeting to prohibit future Republican nominees from participating in CPD-sponsored debates," she said.\n\nMs McDaniel complained in her letter that the first debate between Republican Donald Trump and Democrat Joe Biden in 2020 was held after early voting had already begun.\n\nShe said the commission had made "unilateral changes to previously agreed-upon debate formats and conditions" and selected a moderator "who had once worked for the Democrat nominee."\n\nIn addition, she said a majority of the CPD board members had been "publicly disparaging" of Mr Trump, the Republican nominee.\n\nIn a statement to The New York Times, the CPD said it "deals directly with candidates for President and Vice President who qualify for participation."\n\n"The CPD\'s plans for 2024 will be based on fairness, neutrality and a firm commitment to help the American public learn about the candidates and the issues."\n\nWhite House Press Secretary Jen Psaki was asked about the RNC move at the daily press briefing.\n\nMs Psaki said the president believes the debates "play a role in allowing the American people to hear from the candidates and where they stand."\n\n"So, I think it\'s a question best posed to the RNC and what they\'re so afraid of," she said.\n\nThe commission has sponsored the US presidential debates since the 1988 election.', 'By Denis Bright\n\nWithout access to the vast resources of the federal LNP in Government, Labor has raised sobering realities to deflate the political excesses of the last Mid-Year Economic and Financial Outlook (MYEFO) before the 2022 election.\n\nMYEFO still provides a window of political opportunities for the Morrison Government as economic indicators show a temporary rebound in the September Quarter in GDP growth, a temporary growth in capital expenditure in mining on real estate and property markets and improvements to business confidence as the holiday season approaches after a lengthy period of COVID-lockdown.\n\nA December Quarter rebound is likely to be a feature of a March election campaign. It is due for release on 2 March 2022.\n\nMYEFO has Machiavellian elements. The most obvious concern is the $16 billion set aside for unannounced election promises as released during the heat of the election campaign as in 2019 in electorates under siege from Labor.\n\nThere is also the obvious repeated ruse of our official unemployment figure in the Treasurer’s media statements to talk up MYEFO. The 4.6 per cent unemployment rate needs more qualifiers. Australians from all age groups on training programmes or working on a trial basis for employers do not feature in the official jobless data. Adding the underemployed to the official jobless rate, translates to 13.1 per cent of the workforce. The situation is worse in the most disadvantaged federal electorates.\n\nBesides these obvious lapses are the wildly optimistic assumptions about the post-COVID recovery in the Australian and global economies despite the global shadow posed by the Omicron variant with its record level of cases in Britain.\n\nThe Treasury is also over-optimistic about economic relations with China and Hong Kong despite months of sabre-rattling and patrols by Australia through the disputed waters of the South China Sea and the Taiwan Straits:\n\nIn China, GDP is forecast to grow by 8 per cent in 2021 before moderating to 5 per cent in 2022, reflecting the strong recovery to date. Growth has eased recently owing to a slowdown in the property sector and the impact of multiple provincial virus outbreaks on consumption. Despite a high vaccination rate, China has continued to pursue an elimination strategy, imposing aggressive local containment measures and strict international border controls to suppress and limit outbreaks\n\nA third of Australian trade also plies these disputed maritime routes. MYEFO also notes that Australian deposits in the Asian Infrastructure Investment Bank (AIIB) which help to fund China’s Belt and Road Investment is currently running at $4 billion. Former Liberal Treasurer Peter Costello was a member of the International Advisory Council of the China Investment Corporation (CIC) between 2014 and 2018. The AFR announced on 26 August that Australia had just withdrawn substantial amounts of Australian Future Fund Investments in the CIC to support the sabre-rattling campaigns against our strongest trading partner.\n\nAll this suggests that the federal LNP is playing domestic politics in its strategic disputes with China that cuts Australia off from profitable investment partnerships within Australia and in the global economy.\n\nRestrictions on overseas investment on security grounds have contributed to the downward trends in investment flows on the LNP’s long financial watch since 2013. Australian net capital inflows have never fully recovered from the GFC on the RBA’s latest chart series:\n\nCurrent capital flow data is worse than the RBA charts disclose because the resultant investment is highly concentrated in the mining, real estate and property sectors which make little contribution to the building of a more sustainable and diversified economy. Labor shares Peter Costello’s enthusiasm as Chair of the Future Fund in his 2020-21 Annual Report:\n\nAs a result of the Board’s careful long-term positioning, the Future Fund has generated a 10-year return of 10.1% per annum against a target of 6.1% per annum. Since inception, investment returns have added $136.3 billion to the original contributions from the Government.\n\nAt 30 June 2021 the Board of Guardians invested over $245 billion across the six public asset funds for which it is responsible for the Commonwealth Government. Each fund has exceeded its target return over every time-period.\n\nThe Medical Research Future Fund (MRFF) generates earnings to provide grants to support medical research and medical innovation. The MRFF delivered a return of 10.9% in 2020–21 and was valued at $22.0 billion as at 30 June 2021.\n\nThe Aboriginal and Torres Strait Islander Land and Sea Future Fund returned 13.9% for the year, taking its value to $2.2 billion. The Future Drought Fund and Emergency Response Fund have also performed well, delivering returns of 14.0% and 13.9% per annum respectively.\n\nThe Disability Care Australia Fund also continued to perform in line with its Mandate, delivering a return of 0.4%.\n\nThe opening up of new subsidiaries of the Future Fund and state-controlled investment funds to corporate hedge fund capital avoids fractious debates about additional taxation burdens. Labor’s National Policy mentions investment seventy times. Sceptical constituents might well ask for more details on the origin of this investment capital. More specific mention of investment options has come with the release of Labor’s affordable housing agenda:\n\nAn Albanese Labor Government will create a $10 billion off-budget Housing Australia Future Fund to build social and affordable housing and create thousands of jobs now and in the long term. Each year investment returns from the Housing Australia Future Fund will be transferred to the National Housing Finance and Investment Corporation (NHFIC) to pay for social and affordable housing projects. Over the first 5 years the investment returns will build around:\n\n20,000 social housing properties.\n\n4,000 of the 20,000 social housing properties will be allocated for women and children fleeing domestic and family violence and older women on low incomes who are at risk of homelessness.\n\n10,000 affordable housing properties for frontline workers.\n\nA Social and Affordable Housing Fund (SAHF) is operated by the NSW Government. A proportion of the investment returns will fund annual service payments that will reward community housing providers over 25-years to bridge the gap between rental revenue and operating costs. These are far from being radical initiatives and stake out a broad support base that existed prior to the Labor Split of the 1950s.\n\nIn The Boom-and-Bust Traditions of Conservative leaders, MYEFO conceals the likelihood of a near trillion-dollar public debt in 2024-25 as private sector investment falters while government spending programmes move southwards after the election to reduce the economic boost from deficit spending which has contributed to favourable short-term MYEFO indicators.\n\nI hear the confidence of Bill Hayden in the enthusiastic responses of Dr. Jim Chalmers to the current MYEFO. The adjacent seat of Oxley became a safe Labor seat for the first time after the defeat of the Liberal Health Minister in 1961. Being taken for granted, both then and now, raises Labor’s enthusiasm for the possibility of a change of government this time around despite all the media hype in MYEFO and in the future December Quarter economic indicators.\n\nThis public relations advertisement warns everyone about life delivering curved balls during the cricket season. Take good advice from leaders who are on our side is already a strong feature of Labor’s media agendas. This style of narrative advertising could be broadened with inputs from other cross-sectional characters who are committed to level-headed critical policies that are appropriate for a middle-ranking Australian economy with a still underdeveloped financial sector.\n\nThis would be a variation of the It’s Time Advertising from 1972. This campaign was challenged fiercely by the Federal LNP. Labor’s victories in twelve new seats were partially offset by losses to the LNP in Bendigo, Forrest, Stirling and Sturt. Out of this mix, Labor secured the seat of Cook which is Scott Morrison’s current seat.\n\nState of the art advertising can attract attention and fire the appetite for change over that conventional wisdom offered by the LNP to justify more market ideology and militarism to worsen the Australian social divide. Readers might take a few minutes to evaluate this style of the public announcement by checking the You Tube Channel.\n\nNarrative advertising should be endorsed by members of Labor’s Shadow Ministry, high profile candidates and popular Australians as in 1972.\n\nA call to electoral enrolments is the first step in getting sceptical potential constituents onside before the rolls close in early 2022 as the voting returns in many Labor heartland electorates were unbelievably soft at the last election.\n\n[textblock style=”6″]\n\nDenis Bright (pictured) is a financial member of the Media, Entertainment and Arts Alliance (MEAA). Denis is committed to consensus-building in these difficult times. Your feedback from readers advances the cause of citizens’ journalism. Full names are not required when making comments. However, a valid email must be submitted if you decide to hit the Replies Button.\n\n[/textblock]\n\n[textblock style=”7″]\n\nLike what we do at The AIMN?\n\nYou’ll like it even more knowing that your donation will help us to keep up the good fight.\n\nChuck in a few bucks and see just how far it goes!\n\n[/textblock]\n\nPost Views: 865', 'Advertisement\n\nThe BJP knew that UP was going to be tricky this time. There were too many signals of distress from the ground and Prime Minister Narendra Modi’s pre-election Santa Claus act did little to alleviate voter worries. The BJP’s response was to simply change the terms of electoral engagement and revert to the familiar tactics of polarisation. Its election machine is firing on all cylinders, and from all directions, to blitz any talk of disappearing jobs, rising prices and the devastation caused by the pandemic.\n\nFor the first phase of polling, the BJP carpet-bombed western UP by sending all its heavyweights, including Union ministers, door-to-door. They resurrected yesterday’s emotive issues and ignored the disquiet on the ground. In Parliament, Prime Minister Narendra Modi did not even attempt to defend his government. He deflected all criticism by training his guns on the Congress and shrugged off responsibility for everything, including the migration havoc during the first Covid lockdown.\n\nAnd from faraway Karnataka, the BJP fired a potent salvo by raking up a blazing row over the hijab. As Hindu-Muslim tensions rise in the southern state, it is easy to join the dots from Karnataka to UP and guess that the hijab controversy has been pulled out like a rabbit from a magician’s hat to exacerbate communal tensions in UP’s minority-dominated pockets polling in the second phase.\n\nThe extent of economic distress on the ground can be gauged from a survey published in The Indian Express recently. Conducted by Mumbai-based thinktank People’s Research on India’s Consumer Economy (PRICE), the report paints a heartbreaking picture of the blow to income levels of the bottom 40 per cent in the last five years — that is between the years 2016 and 2021. It’s an eyeopener on how the poor have fared through the double whammy of declining economic indicators post-demonetisation and a once-in-a-lifetime pandemic.\n\nAlthough it is a national survey, its findings can be extrapolated to understand ground realities in UP, which ranks as one of the country’s three poorest states, according to NITI Aayog. Here are some startling facts. The income level of the poorest 20 per cent dived 53 per cent in five years while that of the 20 per cent at the next level fell 32 per cent. The rich reaped a windfall in the same period. The income of the richest 20 per cent households grew 39 per cent.\n\nNow, contrast this with the decade before, from 2005 to 2016. The survey highlights that this decade saw the income of the poorest 20 per cent surge 183 per cent while that of the richest 20 per cent grew 34 per cent. For the poor, this meant an unprecedented annual growth rate of 9.9 per cent in household incomes.\n\nIt is reasonable to assume that most of the poor hit by the five-year slump in incomes belong to Dalit, OBC and Muslim communities. After all, these groups are at the bottom of the pyramid everywhere. The question that presents itself as UP goes to polls is whether the steep fall in their economic status will influence their voting patterns in 2022.\n\nFive years ago, in 2017, before income levels started plunging, the BJP had swept to a stunning victory, riding a wave of popular support from a slew of Dalit and OBC groups. While the cutting edge of its campaign was Hindutva, the party worked on the ground to stitch up a rainbow coalition of upper-castes, non-Yadav backward castes and non-Jatav Dalits. It was a project in progress since 2014 and culminated in the 2017 sweep. BJP got a record 40 per cent vote share and 312 of the 403 assembly seats, something no party had achieved in UP for more than three decades. The social coalition held together in the 2019 parliamentary polls as well to give Modi a second term with a bigger majority.\n\nAs the PRICE survey highlights, the ground has shifted considerably since 2017. The effects of demonetisation were already pinching when the pandemic exploded like a nuclear bomb. Covid was the proverbial straw that broke the camel’s back as economic activity ground to a halt for two quarters in 2020-21, causing the GDP to shrink by 7.3 per cent. The income of the poor contracted drastically as small and medium enterprises went bust and the service industry shut down. The urban poor were the worst hit.\n\nElections in India have been fought traditionally on emotive appeals rather than economic issues. UP, in particular, has been trapped in the Mandal-Kamandal paradigm for more than three decades now, with identity and communal motifs dominating the narrative in every poll.\n\nWhile Akhilesh Yadav and his Samajwadi Party are trying to break out of this paradigm by bringing the economy centre-stage in the ongoing state polls, it remains to be seen whether they are able to stay the course in the face of the highly charged and polarising campaign of the BJP. There are already signs that Akhilesh is faltering, as the saffron narrative slowly gains traction while the focus on basic issues blurs.\n\nAkhilesh could learn a trick or two from his friend in neighbouring Bihar, RJD’s Tejashwi Yadav, who led a spirited attack against the BJP-JD(U) in the 2020 state polls, with a one-line slogan promising 10 lakh government jobs to the youth. The RJD lost but Tejashwi’s single-minded concentration on the big economic issue of the day gave his opponents several sleepless nights and nearly won him the election.']
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  2.27it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Device set to use cuda:0
+
+rank_query Thought: The article discusses the Republican National Committee's ( RNA ) plans to boycott the Commission on Presidential Deb (CPD) due to perceived bias against Republican candidates. This could potentially impact the 2024 USA Election, as the CPD has historically run all general election presidential and vice-presidential debadh since 1988.
+
+Rating: 4 - Relevant. The article directly addresses the forecasting question of who will win the 2024eaga USA Election by discussing potential implications of the R beskrev's decision on the election itself.
+
+rank_query Thought: The article discusses the potential impact of the RNC's decision to boycott the US presidential debunft the outcome of the 2024 election. It mentions the RNC's concerns about the CPD's impartiality and fairness in hosting the debates, as well as the potential consequences of the R beskrev's actions.
+
+Rating: 4 - Relevant. The article provides information about the RNA's decision and its potential impact on the election, which is directly related to the forecasting question.
+
+rank_query Thought: The article discusses the Australian economy, particularly the performance of the Morrison Government in the lead-up to the 2024 election. It highlights some of the government's economic policies and their potential impact on the election.
+
+Rating: 5 - Relevant. The article provides insights into the Australian economy and its potential impact on the upcoming election, which is directly related to the forecasting question. The article also touches on some of the government's economic policies and their potential effects on the election, which is relevant to the question.
+
+rank_query Thought: The article discusses the current economic situation in Uttar Pradesh and its potential impact on the upcoming elections. It highlights the decline in income levels of the poorest 40% of the population and the growing divide between the rich and the poor. The article also mentions the BJP's election strategy of polarization and how it has been successful in the past.
+
+Rating: 5 - Highly relevant. The article provides valuable insights into the economic conditions that may influence the outcome of the election, and how the BJP's strategy of polarization may play a role in the campaign.
+
+rankings
+ ["Thought: The article discusses the Republican National Committee's ( RNA ) plans to boycott the Commission on Presidential Deb (CPD) due to perceived bias against Republican candidates. This could potentially impact the 2024 USA Election, as the CPD has historically run all general election presidential and vice-presidential debadh since 1988.\n\nRating: 4 - Relevant. The article directly addresses the forecasting question of who will win the 2024eaga USA Election by discussing potential implications of the R beskrev's decision on the election itself.", "Thought: The article discusses the potential impact of the RNC's decision to boycott the US presidential debunft the outcome of the 2024 election. It mentions the RNC's concerns about the CPD's impartiality and fairness in hosting the debates, as well as the potential consequences of the R beskrev's actions.\n\nRating: 4 - Relevant. The article provides information about the RNA's decision and its potential impact on the election, which is directly related to the forecasting question.", "Thought: The article discusses the Australian economy, particularly the performance of the Morrison Government in the lead-up to the 2024 election. It highlights some of the government's economic policies and their potential impact on the election.\n\nRating: 5 - Relevant. The article provides insights into the Australian economy and its potential impact on the upcoming election, which is directly related to the forecasting question. The article also touches on some of the government's economic policies and their potential effects on the election, which is relevant to the question.", "Thought: The article discusses the current economic situation in Uttar Pradesh and its potential impact on the upcoming elections. It highlights the decline in income levels of the poorest 40% of the population and the growing divide between the rich and the poor. The article also mentions the BJP's election strategy of polarization and how it has been successful in the past.\n\nRating: 5 - Highly relevant. The article provides valuable insights into the economic conditions that may influence the outcome of the election, and how the BJP's strategy of polarization may play a role in the campaign."]
+
+summary: In response to the RNC's concerns about bias in the Commission on Presidential Deb (CPD), the RNC is planning to ban its candidates from participating in CPD-run debadies. The RNA cites the CPD's unwillingness to implement proposed reforms, such as disqualifying prospective moderators with conflicts of interest and prohibiting CPD officers from making public comments for or against any candidate. The CPD has historically been jointly sponsored by the Republican and Democratic parties, but the R beskrev the commission's actions as "common sense solutions" that are necessary to maintain its nonpartisn role in US elections. The CPD has faced criticism before, including moving the 2020 second presidential debate online due to the COVID-19 pandemic and accusations of bias against previous candidates. Despite the RNA's threats, the CPD remains committed to ensuring fairness and neutrality in the 2024 election.
+
+summary: Here is a condensed version of the article, no longer than 100 words:
+
+The RNC is threatening to boycott US presidential debates unless the Commission on Presidential Debates (CPD) makes reforms to restore its credibility. RNC chair Ronna McDaniel accused the CPD of stonewalling reforms and selecting a moderator biased towards the Democratic nominee. The CPD responded that it deals directly with candidates and will base its plans for 2024 on fairness and neutrality. White House Press Sec. Jen Psaki said the president believes the debad "plays a role in allowing the American people to hear from the candidates." The CPD has sponsored presidential debeminhaga since 1988.
+
+summary: 
+After analyzing the article provided, I have condensed it to 100 words or less:
+
+The article discusses the Mid-Year Economic and Financial Outlook (MYEFO) and its implications for the 2022 Australian federal election. It highlights the political opportunities and challenges presented by the report, including the temporary rebound in GDP growth and the potential for a near trillion-dollar public debt in 2024-25. The article also mentions the Labor Party's investment plans and their potential to create jobs and address social and affordable housing issues.
+
+summary: In 100 words or less, the article provides insights into the current political scenario in Uttar Pradesh (UP) ahead of the state elections scheduled for February-March 2022. The Bharatiya Janata Party (BJP) is facing challenges due to the economic distress faced by the common man, particularly the poor and marginalized sections, who have seen a significant decline in their incomes over the past five years. The BJP's response has been to resort to polarizing tactics and blame the previous Congress-led government for the current situation. The article also mentions the potential impact of the economic downturn on voting patterns in the state, particularly among Dalit, OBC, and Muslim communities, who were key supporters of the BJP in the past.
+
+SUMS
+ ['In response to the RNC\'s concerns about bias in the Commission on Presidential Deb (CPD), the RNC is planning to ban its candidates from participating in CPD-run debadies. The RNA cites the CPD\'s unwillingness to implement proposed reforms, such as disqualifying prospective moderators with conflicts of interest and prohibiting CPD officers from making public comments for or against any candidate. The CPD has historically been jointly sponsored by the Republican and Democratic parties, but the R beskrev the commission\'s actions as "common sense solutions" that are necessary to maintain its nonpartisn role in US elections. The CPD has faced criticism before, including moving the 2020 second presidential debate online due to the COVID-19 pandemic and accusations of bias against previous candidates. Despite the RNA\'s threats, the CPD remains committed to ensuring fairness and neutrality in the 2024 election.', 'Here is a condensed version of the article, no longer than 100 words:\n\nThe RNC is threatening to boycott US presidential debates unless the Commission on Presidential Debates (CPD) makes reforms to restore its credibility. RNC chair Ronna McDaniel accused the CPD of stonewalling reforms and selecting a moderator biased towards the Democratic nominee. The CPD responded that it deals directly with candidates and will base its plans for 2024 on fairness and neutrality. White House Press Sec. Jen Psaki said the president believes the debad "plays a role in allowing the American people to hear from the candidates." The CPD has sponsored presidential debeminhaga since 1988.', "\nAfter analyzing the article provided, I have condensed it to 100 words or less:\n\nThe article discusses the Mid-Year Economic and Financial Outlook (MYEFO) and its implications for the 2022 Australian federal election. It highlights the political opportunities and challenges presented by the report, including the temporary rebound in GDP growth and the potential for a near trillion-dollar public debt in 2024-25. The article also mentions the Labor Party's investment plans and their potential to create jobs and address social and affordable housing issues.", "In 100 words or less, the article provides insights into the current political scenario in Uttar Pradesh (UP) ahead of the state elections scheduled for February-March 2022. The Bharatiya Janata Party (BJP) is facing challenges due to the economic distress faced by the common man, particularly the poor and marginalized sections, who have seen a significant decline in their incomes over the past five years. The BJP's response has been to resort to polarizing tactics and blame the previous Congress-led government for the current situation. The article also mentions the potential impact of the economic downturn on voting patterns in the state, particularly among Dalit, OBC, and Muslim communities, who were key supporters of the BJP in the past."]
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.03s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Device set to use cuda:0
+pred Rephrased and Expanded Question:
+Who will win the 2024 US Presidential Election, Donald Trump or Joe Biden?
+
+Reasons Why the Answer Might Be No:
+
+1. Lack of Support from RNA: The RNA's decision to ban its candidates from participating in CPD-run debates could significantly impact Trump's chances of winning. If the RNA does not support Trump, it may be difficult for him to gain momentum and attract voters. Strength: 8/10
+2. Criticism of CPD's Neutrality: The CPD has faced criticism in the past for alleged bias against certain candidates. If the CPD is seen as biased again, it could erode trust in the electoral process and harm Trump's chances. Strength: 7/10
+3. Economic Conditions: The state of the economy can significantly impact voter preferences. If the economy is perceived as weak or stagnant, it could hurt Trump's chances. Strength: 6/10
+4. International Relations: Trump's foreign policy decisions have been controversial, and some voters may view them as detrimental to the country's interests. If tensions with other countries escalate or there are major geopolitical crises, it could negatively impact Trump's popularity. Strength: 5/10
+
+Reasons Why the Answer Might Be Yes:
+
+1. Incumbency Advantage: Incumbent presidents often have an advantage in presidential elections, especially if they have achieved significant accomplishments during their term. If Trump can point to tangible achievements, it could help him win re-election. Strength: 9/10
+2. Political Polarization: The political landscape in the US has become increasingly polarized, with many voters identifying strongly with either the Democratic or Republican Party. If Trump can appeal to his base and motivate them to vote, he may be able to secure victory. Strength: 8/10
+3. Social Issues: Trump has been successful in appealing to social conservatives, and he may be able to mobilize these voters to turn out in large numbers. If he can also appeal to moderate voters who are concerned about issues like healthcare and the economy, he may be able to win over undecided voters. Strength: 7/10
+
+Aggregated Considerations:
+Taking into account both the reasons why the answer might be no and the reasons why the answer might be yes, I would give Trump a probability of around 60% (or 0.6) of winning the 2024 US Presidential Election.
+
+Initial Probability: 0.6
+
+Evaluation: My calculated probability is not excessively confident, as there are still several factors that could impact the outcome of the election. However, I do think that Trump has a strong chance of winning due to his incumbency advantage and ability to appeal to his base.
+
+Final Prediction: 0.6
+
+Note: This is just one possible forecast, and the actual outcome of the election may differ. It's important to keep in mind that predicting election outcomes is inherently uncertain and subject to many factors.
+pred Rephrased and Expanded Question:
+Who will win the 2024 US Presidential Election, Donald Trump or Joe Biden?
+
+Reasons Why the Answer Might Be No:
+
+Strength of Reason: 6/10
+Donald Trump's approval ratings have been consistently low throughout his presidency, with an average approval rating of around 43% according to Gallup. This suggests that a significant portion of the electorate may not support him in the election.
+
+Strength of Reason: 7/10
+Joe Biden has been campaigning actively since 2020 and has gained significant momentum in recent months. He has also performed well in polls against potential Republican opponents, which could indicate that he has a strong chance of winning the election.
+
+Reasons Why the Answer Might Be Yes:
+
+Strength of Reason: 8/10
+Donald Trump has a strong base of supporters within the Republican Party, which could give him an advantage in the election. Additionally, his controversial policies and rhetoric have been effective in mobilizing his base and generating media attention.
+
+Strength of Reason: 9/10
+Joe Biden's campaign has faced several challenges, including criticism over his age and health, as well as allegations of corruption within his family. However, he has shown resilience and adaptability throughout his political career, which could serve him well in the election.
+
+Aggregated Considerations:
+Given the current political landscape and the available data, there is a roughly equal chance of either candidate winning the election. However, I would assign a slightly higher probability to Joe Biden due to his stronger campaign performance and broader appeal among voters.
+
+Initial Probability: 0.55 (55%)
+
+Evaluation of Initial Probability: My initial probability is not excessively confident or not confident enough. It represents a balanced assessment of the available evidence and takes into account the uncertainties and limitations of predicting election outcomes.
+
+Final Prediction: *0.58 (58%)
+
+Explanation of Final Prediction: Based on my aggregated considerations and evaluation of the initial probability, I believe there is a slightly higher chance of Joe Biden winning the 2024 US Presidential Election. However, I recognize that there are still many factors that could influence the outcome of the election, and my prediction should be interpreted with caution.
+pred Rephrased and expanded question:
+Who will win the 2024 US presidential election, Donald Trump or Joe Biden? The election is scheduled to take place on November 3, 2024, and the outcome will depend on various factors such as the state of the economy, international relations, and voter preferences. Both Trump and Biden have their own strengths and weaknesses, and the election is expected to be highly competitive.
+
+Reasons why the answer might be no:
+
+1. Weak economic conditions: If the US economy is still struggling with low growth and high unemployment, voters may turn against Trump and choose Biden as a more stable alternative. *Strength rating: 6/10
+2. International relations: If Trump's foreign policy decisions continue to be controversial or result in conflicts, he may lose support from voters who prioritize diplomacy and international cooperation. *Strength rating: 7/10
+3. Voter demographics: If there are significant shifts in voter demographics, particularly among key groups such as young people or minority communities, Biden may benefit from these changes. *Strength rating: 8/10
+
+Reasons why the answer might be yes:
+
+1. Strong incumbency advantage: As the incumbent president, Trump has a built-in advantage in terms of name recognition and fundraising capabilities. *Strength rating: 9/10
+2. Republican enthusiasm: If Republicans are highly motivated to vote for Trump due to his policies or personal appeal, they could make up for any deficits in other areas. *Strength rating: 8/10
+3. Polarized electorate: If the electorate remains highly polarized, Trump's strong base of support among Republicans could be sufficient to secure him victory. *Strength rating: 9/10
+
+Aggregated considerations:
+Overall, while there are some reasons to believe that Biden may win the election, the stronger indicators point towards Trump retaining office. However, there are still many variables at play, and the election is likely to be close regardless of the outcome.
+
+Initial probability: 60% (based on the strength ratings above)
+
+Evaluation: My initial probability is slightly leaning towards Trump winning the election, but there are still many factors that could influence the outcome. Base rates of the event (i.e., past elections) suggest that the incumbent party tends to have an advantage, which supports my initial prediction. However, there are also signs of increased polarization and volatility in the electorate, which could lead to unexpected outcomes.
+
+Final prediction: 65% (with an asterisk indicating a range of possible outcomes from 55% to 75%)
+pred Rephrased and Expanded Question:
+Who will win the 2024 US Presidential Election, Donald Trump or Joe Biden?
+
+Reasons Why the Answer Might Be No:
+
+1. Economic conditions: The economy has been a major factor in recent presidential elections, and if the economy continues to struggle under Trump's presidency, it could hurt his chances of re-election. *Strength: 8/10*
+2. Political polarization: The country has become increasingly polarized, and Trump's divisive rhetoric and actions may alienate moderate voters, making it harder for him to win re-election. *Strength: 9/10*
+3. International relations: Trump's foreign policy has been controversial, and if he doesn't improve his relationships with other countries, it could harm his chances of re-election. *Strength: 7/10*
+4. Democratic nomination: If the Democratic party nominates a strong candidate who can appeal to a broad coalition of voters, they could potentially unseat Trump. *Strength: 6/10*
+
+Reasons Why the Answer Might Be Yes:
+
+1. Incumbency advantage: As the incumbent president, Trump has a built-in advantage in terms of name recognition and fundraising capabilities. *Strength: 8/10*
+2. Republican base: Trump has a strong base of support within the Republican party, which could help him win re-election. *Strength: 9/10*
+3. Campaign strategy: Trump has a proven track record of running successful campaigns, and he may be able to use his unconventional approach to mobilize his base and win re-election. *Strength: 7/10*
+4. Economic growth: If the economy continues to grow under Trump's presidency, it could boost his chances of re-election. *Strength: 6/10*
+
+Aggregated Considerations:
+Taking into account both the reasons why the answer might be no and the reasons why the answer might be yes, I would give Trump a probability of around 60% of winning the election. However, there are still many factors that could influence the outcome, such as the performance of the economy and the candidates nominated by the Democratic party.
+
+Initial Probability: 60%
+
+Evaluation: My predicted probability of 60% is not excessively confident, but it does take into account Trump's incumbency advantage and strong base of support within the Republican party. However, there are still many factors that could affect the outcome, so my confidence level is not extremely high.
+
+Final Prediction: 60%
+
+Note: This prediction is based on the information available up to this point and may change as new information becomes available.
+
+PREDS
+ ["Rephrased and Expanded Question:\nWho will win the 2024 US Presidential Election, Donald Trump or Joe Biden?\n\nReasons Why the Answer Might Be No:\n\n1. Lack of Support from RNA: The RNA's decision to ban its candidates from participating in CPD-run debates could significantly impact Trump's chances of winning. If the RNA does not support Trump, it may be difficult for him to gain momentum and attract voters. Strength: 8/10\n2. Criticism of CPD's Neutrality: The CPD has faced criticism in the past for alleged bias against certain candidates. If the CPD is seen as biased again, it could erode trust in the electoral process and harm Trump's chances. Strength: 7/10\n3. Economic Conditions: The state of the economy can significantly impact voter preferences. If the economy is perceived as weak or stagnant, it could hurt Trump's chances. Strength: 6/10\n4. International Relations: Trump's foreign policy decisions have been controversial, and some voters may view them as detrimental to the country's interests. If tensions with other countries escalate or there are major geopolitical crises, it could negatively impact Trump's popularity. Strength: 5/10\n\nReasons Why the Answer Might Be Yes:\n\n1. Incumbency Advantage: Incumbent presidents often have an advantage in presidential elections, especially if they have achieved significant accomplishments during their term. If Trump can point to tangible achievements, it could help him win re-election. Strength: 9/10\n2. Political Polarization: The political landscape in the US has become increasingly polarized, with many voters identifying strongly with either the Democratic or Republican Party. If Trump can appeal to his base and motivate them to vote, he may be able to secure victory. Strength: 8/10\n3. Social Issues: Trump has been successful in appealing to social conservatives, and he may be able to mobilize these voters to turn out in large numbers. If he can also appeal to moderate voters who are concerned about issues like healthcare and the economy, he may be able to win over undecided voters. Strength: 7/10\n\nAggregated Considerations:\nTaking into account both the reasons why the answer might be no and the reasons why the answer might be yes, I would give Trump a probability of around 60% (or 0.6) of winning the 2024 US Presidential Election.\n\nInitial Probability: 0.6\n\nEvaluation: My calculated probability is not excessively confident, as there are still several factors that could impact the outcome of the election. However, I do think that Trump has a strong chance of winning due to his incumbency advantage and ability to appeal to his base.\n\nFinal Prediction: 0.6\n\nNote: This is just one possible forecast, and the actual outcome of the election may differ. It's important to keep in mind that predicting election outcomes is inherently uncertain and subject to many factors.", "Rephrased and Expanded Question:\nWho will win the 2024 US Presidential Election, Donald Trump or Joe Biden?\n\nReasons Why the Answer Might Be No:\n\nStrength of Reason: 6/10\nDonald Trump's approval ratings have been consistently low throughout his presidency, with an average approval rating of around 43% according to Gallup. This suggests that a significant portion of the electorate may not support him in the election.\n\nStrength of Reason: 7/10\nJoe Biden has been campaigning actively since 2020 and has gained significant momentum in recent months. He has also performed well in polls against potential Republican opponents, which could indicate that he has a strong chance of winning the election.\n\nReasons Why the Answer Might Be Yes:\n\nStrength of Reason: 8/10\nDonald Trump has a strong base of supporters within the Republican Party, which could give him an advantage in the election. Additionally, his controversial policies and rhetoric have been effective in mobilizing his base and generating media attention.\n\nStrength of Reason: 9/10\nJoe Biden's campaign has faced several challenges, including criticism over his age and health, as well as allegations of corruption within his family. However, he has shown resilience and adaptability throughout his political career, which could serve him well in the election.\n\nAggregated Considerations:\nGiven the current political landscape and the available data, there is a roughly equal chance of either candidate winning the election. However, I would assign a slightly higher probability to Joe Biden due to his stronger campaign performance and broader appeal among voters.\n\nInitial Probability: 0.55 (55%)\n\nEvaluation of Initial Probability: My initial probability is not excessively confident or not confident enough. It represents a balanced assessment of the available evidence and takes into account the uncertainties and limitations of predicting election outcomes.\n\nFinal Prediction: *0.58 (58%)\n\nExplanation of Final Prediction: Based on my aggregated considerations and evaluation of the initial probability, I believe there is a slightly higher chance of Joe Biden winning the 2024 US Presidential Election. However, I recognize that there are still many factors that could influence the outcome of the election, and my prediction should be interpreted with caution.", "Rephrased and expanded question:\nWho will win the 2024 US presidential election, Donald Trump or Joe Biden? The election is scheduled to take place on November 3, 2024, and the outcome will depend on various factors such as the state of the economy, international relations, and voter preferences. Both Trump and Biden have their own strengths and weaknesses, and the election is expected to be highly competitive.\n\nReasons why the answer might be no:\n\n1. Weak economic conditions: If the US economy is still struggling with low growth and high unemployment, voters may turn against Trump and choose Biden as a more stable alternative. *Strength rating: 6/10\n2. International relations: If Trump's foreign policy decisions continue to be controversial or result in conflicts, he may lose support from voters who prioritize diplomacy and international cooperation. *Strength rating: 7/10\n3. Voter demographics: If there are significant shifts in voter demographics, particularly among key groups such as young people or minority communities, Biden may benefit from these changes. *Strength rating: 8/10\n\nReasons why the answer might be yes:\n\n1. Strong incumbency advantage: As the incumbent president, Trump has a built-in advantage in terms of name recognition and fundraising capabilities. *Strength rating: 9/10\n2. Republican enthusiasm: If Republicans are highly motivated to vote for Trump due to his policies or personal appeal, they could make up for any deficits in other areas. *Strength rating: 8/10\n3. Polarized electorate: If the electorate remains highly polarized, Trump's strong base of support among Republicans could be sufficient to secure him victory. *Strength rating: 9/10\n\nAggregated considerations:\nOverall, while there are some reasons to believe that Biden may win the election, the stronger indicators point towards Trump retaining office. However, there are still many variables at play, and the election is likely to be close regardless of the outcome.\n\nInitial probability: 60% (based on the strength ratings above)\n\nEvaluation: My initial probability is slightly leaning towards Trump winning the election, but there are still many factors that could influence the outcome. Base rates of the event (i.e., past elections) suggest that the incumbent party tends to have an advantage, which supports my initial prediction. However, there are also signs of increased polarization and volatility in the electorate, which could lead to unexpected outcomes.\n\nFinal prediction: 65% (with an asterisk indicating a range of possible outcomes from 55% to 75%)", "Rephrased and Expanded Question:\nWho will win the 2024 US Presidential Election, Donald Trump or Joe Biden?\n\nReasons Why the Answer Might Be No:\n\n1. Economic conditions: The economy has been a major factor in recent presidential elections, and if the economy continues to struggle under Trump's presidency, it could hurt his chances of re-election. *Strength: 8/10*\n2. Political polarization: The country has become increasingly polarized, and Trump's divisive rhetoric and actions may alienate moderate voters, making it harder for him to win re-election. *Strength: 9/10*\n3. International relations: Trump's foreign policy has been controversial, and if he doesn't improve his relationships with other countries, it could harm his chances of re-election. *Strength: 7/10*\n4. Democratic nomination: If the Democratic party nominates a strong candidate who can appeal to a broad coalition of voters, they could potentially unseat Trump. *Strength: 6/10*\n\nReasons Why the Answer Might Be Yes:\n\n1. Incumbency advantage: As the incumbent president, Trump has a built-in advantage in terms of name recognition and fundraising capabilities. *Strength: 8/10*\n2. Republican base: Trump has a strong base of support within the Republican party, which could help him win re-election. *Strength: 9/10*\n3. Campaign strategy: Trump has a proven track record of running successful campaigns, and he may be able to use his unconventional approach to mobilize his base and win re-election. *Strength: 7/10*\n4. Economic growth: If the economy continues to grow under Trump's presidency, it could boost his chances of re-election. *Strength: 6/10*\n\nAggregated Considerations:\nTaking into account both the reasons why the answer might be no and the reasons why the answer might be yes, I would give Trump a probability of around 60% of winning the election. However, there are still many factors that could influence the outcome, such as the performance of the economy and the candidates nominated by the Democratic party.\n\nInitial Probability: 60%\n\nEvaluation: My predicted probability of 60% is not excessively confident, but it does take into account Trump's incumbency advantage and strong base of support within the Republican party. However, there are still many factors that could affect the outcome, so my confidence level is not extremely high.\n\nFinal Prediction: 60%\n\nNote: This prediction is based on the information available up to this point and may change as new information becomes available."]
+
+
+done
